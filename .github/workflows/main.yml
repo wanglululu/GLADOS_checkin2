@@ -19,4 +19,4 @@ jobs:
         env:
           COOKIE: ${{ secrets.COOKIE }}
         run: |
-          ./checkin.sh
+          bash ./checkin.sh
